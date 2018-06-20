@@ -3,7 +3,6 @@ podspec = Pod::Spec.new do |spec|
   spec.version = '1.6.0'
   spec.license =  { :type => 'BSD', :file => "LICENSE" }
   spec.homepage = 'https://github.com/drinking/YogaKitObjC'
-  spec.documentation_url = 'https://facebook.github.io/yoga/docs/api/yogakit/'
 
   spec.summary = 'Yoga is a cross-platform layout engine which implements Flexbox.'
   spec.description = 'Yoga is a cross-platform layout engine enabling maximum collaboration within your team by implementing an API many designers are familiar with, and opening it up to developers across different platforms.'
@@ -20,8 +19,8 @@ podspec = Pod::Spec.new do |spec|
 
   spec.dependency 'Yoga', '= 1.6.0'
   spec.source_files = 'Source/*.{h,m}'
-  spec.public_header_files = 'YogaKit/Source/{YGLayout,UIView+Yoga}.h'
-  spec.private_header_files = 'YogaKit/Source/YGLayout+Private.h'
+  spec.public_header_files = 'YogaKitObjC/Source/{YGLayout,UIView+Yoga}.h'
+  spec.private_header_files = 'YogaKitObjC/Source/YGLayout+Private.h'
 end
 
 podspec
