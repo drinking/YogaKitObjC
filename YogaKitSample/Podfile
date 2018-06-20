@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'YogaKitSample' do
+  pod 'YogaKitObjC', :path => '../YogaKitObjC.podspec'
+  pod 'IGListKit', '~> 2.1.0'
+end
