@@ -19,8 +19,8 @@ podspec = Pod::Spec.new do |spec|
 
   spec.dependency 'Yoga', '= 1.6.0'
   spec.source_files = 'Source/*.{h,m}'
-  spec.public_header_files = 'YogaKitObjC/Source/{YGLayout,UIView+Yoga}.h'
-  spec.private_header_files = 'YogaKitObjC/Source/YGLayout+Private.h'
+  spec.public_header_files = 'Source/{YGLayout,UIView+Yoga}.h'
+  spec.private_header_files = 'Source/YGLayout+Private.h'
 end
 
 podspec
